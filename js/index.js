@@ -60,6 +60,10 @@ const ctaH1 = document.getElementsByTagName('h1')[0];
 console.log(ctaH1);
 ctaH1.textContent = (siteContent['cta']['h1']);
 
+const ctaBtn = document.getElementsByTagName('button')[0];
+console.log(ctaBtn);
+ctaBtn.textContent=(siteContent['cta']["button"]);
+
 
 const middleImg = document.getElementById("middle-img");
 console.log(middleImg);
