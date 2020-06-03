@@ -56,9 +56,9 @@ console.log(ctaImg);
 
 ctaImg.setAttribute('src', siteContent["cta"]["img-src"] );
 
-const ctaH1 = document.getElementsByTagName('h1');
+const ctaH1 = document.getElementsByTagName('h1')[0];
 console.log(ctaH1);
-ctaH1.setAttribute = ('text', siteContent['cta']['h1']);
+ctaH1.textContent = (siteContent['cta']['h1']);
 
 
 const middleImg = document.getElementById("middle-img");
