@@ -113,5 +113,18 @@ navStyle.forEach(element => {
 // const childP = document.createElement('p');
 // contact.appendChild(childP);
 
+const newA1 = document.createElement('a');
+newA1.textContent ="End";
+newA1.style.color = "hotpink";
+console.log(newA1)
 
+const nav = document.querySelector('nav');
+nav.appendChild(newA1);
+
+const newA2 = document.createElement('a');
+newA2.textContent ="Beginning";
+newA2.style.color ="cadetblue";
+console.log(newA2);
+
+nav.prepend(newA2);
 
