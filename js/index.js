@@ -90,3 +90,11 @@ allP[1].textContent = (siteContent["main-content"]["about-content"]);
 allP[2].textContent = (siteContent["main-content"]["services-content"]);
 allP[3].textContent = (siteContent["main-content"]["product-content"]);
 allP[4].textContent = (siteContent["main-content"]["vision-content"]);
+
+
+const navStyle = document.querySelectorAll('a');
+console.log(navStyle);
+
+navStyle.forEach(element => {
+  element.style.color ='green';
+});
