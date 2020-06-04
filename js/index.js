@@ -81,6 +81,7 @@ allH4[1].textContent =(siteContent["main-content"]["about-h4"]);
 allH4[2].textContent = (siteContent["main-content"]["services-h4"]);
 allH4[3].textContent =(siteContent["main-content"]["product-h4"]);
 allH4[4].textContent =(siteContent["main-content"]["vision-h4"]);
+allH4[5].textContent=(siteContent["contact"]["contact-h4"]);
 
 const allP = document.getElementsByTagName('p');
 console.log(allP);
@@ -90,6 +91,10 @@ allP[1].textContent = (siteContent["main-content"]["about-content"]);
 allP[2].textContent = (siteContent["main-content"]["services-content"]);
 allP[3].textContent = (siteContent["main-content"]["product-content"]);
 allP[4].textContent = (siteContent["main-content"]["vision-content"]);
+allP[5].textContent = (siteContent["contact"]["address"]);
+allP[6].textContent = (siteContent["contact"]["phone"]);
+allP[7].textContent = (siteContent["contact"]["email"]);
+allP[8].textContent = (siteContent["footer"]["copyright"]);
 
 
 const navStyle = document.querySelectorAll('a');
@@ -98,3 +103,15 @@ console.log(navStyle);
 navStyle.forEach(element => {
   element.style.color ='green';
 });
+
+// const contact = document.createElement('div');
+// console.log(contact);
+
+// const childH4 = document.createElement('h4');
+// contact.appendChild(childH4);
+
+// const childP = document.createElement('p');
+// contact.appendChild(childP);
+
+
+
